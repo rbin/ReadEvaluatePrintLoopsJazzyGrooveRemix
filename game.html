@@ -1,0 +1,50 @@
+<!-- // Copyright (c) 2013 RBIN.
+//
+//        .==.        .==.
+//       //`^\\      //^`\\
+//      // ^ ^\(\__/)/^ ^^\\
+//     //^ ^^ ^/6  6\ ^^ ^ \\
+//    //^ ^^ ^/( .. )\^ ^ ^ \\
+//   // ^^ ^/\| v""v |/\^ ^ ^\\
+//  // ^^/\/ /  `~~`  \ \/\^ ^\\
+//  
+///       HERE BE DRAGONS! -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>&lt; BANG THE BIEBS &gt;</title>
+		<link rel="stylesheet" href="http://wilkesalex.github.io/leapstrap/dist/css/leapstrap.css" />
+		<link rel="stylesheet" href="./css/creator.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+		<script src="./js/leap.js"></script>
+		<script src="./js/leapstrap.min.js"></script>
+
+	</head>
+	<body>
+
+		<div id="OOPS">
+			<audio preload="auto">
+				<source src="./sounds/oopsbaby.mp3" type="audio/mpeg">
+			</audio>	
+		</div>
+		<div id="YEY"></div>
+
+		<div id="boomScorediv">Lives left:  </div>
+
+		<div id="scorediv">Bieberscore:  </div>
+		
+		<canvas id="starfield" height="700px" width="1200px"></canvas>
+
+		<p class="foot">&copy; RBIN 2014</p>
+		<audio preload="auto">
+			<source src="./sounds/pop.mp3" type="audio/mpeg">
+			<source src="./sounds/bahh.mp3" type="audio/mpeg">
+			<source src="./sounds/miley.mp3" type="audio/mpeg">  
+		</audio>	
+		
+		<script>LeapManager.init({interactiveSelector:"a",maxCursors:1, enableMetaGestures: false});</script>
+
+		<script src="./js/game.js"></script>
+	</body>
+</html>

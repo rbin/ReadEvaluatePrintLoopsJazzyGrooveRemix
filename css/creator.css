@@ -53,7 +53,24 @@ h1 {
 	z-index: 9999;
 }
 
-.PLAYER {
+.LOSER {
+	display: block !important;
+}
+
+#YEY {
+	background: url('../img/winheart.jpg') no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	display: none;
+	position: absolute;
+	top: -200px;
+	left: 0px;
+	height: 120%;
+	width: 100%;
+	z-index: 9999;
+}
+
+.WINNER {
 	display: block !important;
 }
 

@@ -113,7 +113,7 @@
 
 		function draw() {
 
-			if (Score >= 15000) {
+			if (Score >= 1000) {
 				biebIsDead()
 			}
 
@@ -343,7 +343,7 @@
 
 		function OopsyDaisy() {
 			finished = true;
-			document.getElementById("OOPS").className += " PLAYER";
+			document.getElementById("OOPS").className += " LOSER";
  
 			function vidplay() {
 				var oopsound = new Audio('sounds/oopsbaby.mp3');
@@ -356,18 +356,13 @@
 		}
 
 
-			function biebIsDead() {
-				finished = true;
+		function biebIsDead() {
+			finished = true;
+			document.getElementById("YEY").className += " WINNER";
 
-				var canvas = document.getElementById('starfield');
-				var ctx     = canvas.getContext("2d");
-				var dickhead = new Image();
-				dickhead.onload = function() {
-					ctx.drawImage(dickhead, 200, 200);
-				};
-				dickhead.src = "img/wreckingball.png";
-
-			}
+			document.getElementById("YEY").innerHTML += "<link href='http://fonts.googleapis.com/css?family=Sancreek' rel='stylesheet'>"
+			document.getElementById("YEY").innerHTML += "<h1 id='LostLeft'>WOO! WINNER!</h1>";
+		}
 
 		})
 
