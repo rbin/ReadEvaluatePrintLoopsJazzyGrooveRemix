@@ -113,7 +113,7 @@
 
 		function draw() {
 
-			if (Score >= 1000) {
+			if (Score >= 15000) {
 				biebIsDead()
 			}
 
