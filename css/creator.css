@@ -1,0 +1,70 @@
+body:after
+{
+content: url('../img/bieb1.png') url('../img/bieb2.png') url('../img/bieb3.png') url('../img/b00m.png');
+display: none;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background: url('../img/bg.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+	font-size: 30px;
+	color: #fff;
+	float: left;
+}
+
+#scorediv {
+	color: #fff;
+	font-size: 30px;
+	margin-right: 20px;
+	float: right;
+	clear: right;
+}
+
+#boomScorediv {
+	color: #ff0800;
+	font-size: 26px;
+	margin-left: 60px;
+	float: left;
+	clear: left;
+}
+
+.foot {
+	font-size: 13px;
+	color: #fff;
+	margin: 10px 0 5px 25px;
+}
+
+#OOPS {
+	background: url('../img/biebg.jpg') no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	display: none;
+	position: absolute;
+	top: -200px;
+	left: 0px;
+	height: 120%;
+	width: 100%;
+	z-index: 9999;
+}
+
+.PLAYER {
+	display: block !important;
+}
+
+#LostLeft {
+	position: absolute;
+	bottom: 100px;
+	left: 10px;
+	font-size: 230px;
+	font-family: Sancreek, sans-serif;
+	color: #ff0800;	
+
+}
+
+
