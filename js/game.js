@@ -361,7 +361,7 @@
 			document.getElementById("YEY").className += " WINNER";
 
 			document.getElementById("YEY").innerHTML += "<link href='http://fonts.googleapis.com/css?family=Sancreek' rel='stylesheet'>"
-			document.getElementById("YEY").innerHTML += "<h1 id='LostLeft'>WOO! WINNER!</h1>";
+			document.getElementById("YEY").innerHTML += "<h1 id='LostLeft2'>WINNER!</h1>";
 		}
 
 		})

@@ -60,7 +60,6 @@ h1 {
 #YEY {
 	background: url('../img/winheart.jpg') no-repeat;
 	background-size: cover;
-	background-attachment:fixed;
 	display: none;
 	position: absolute;
 	top: -200px;
@@ -81,6 +80,16 @@ h1 {
 	font-size: 230px;
 	font-family: Sancreek, sans-serif;
 	color: #ff0800;	
+
+}
+
+#LostLeft2 {
+	position: absolute;
+	bottom: 20px;
+	left: 10px;
+	font-size: 240px;
+	font-family: Sancreek, sans-serif;
+	color: #A1D015;	
 
 }
 
